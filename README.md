@@ -1,16 +1,27 @@
-# advanced_quiz_app
+# Quiz Master
 
-A new Flutter project.
+A Flutter-based quiz application that fetches data from an API and presents multiple-choice questions.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+* Fetch quiz data from the API endpoint: `https://api.jsonserve.com/Uw5CrX`
+* Display quiz questions with multiple-choice answers
+* Track and display the user's total score upon quiz completion
+* Responsive design for various devices and orientations
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone the repository: `git clone https://github.com/neerajagawane/quiz_master_app.git`
+2. Install dependencies: `flutter pub get`
+3. Run the app: `flutter run`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Usage
+
+1. Launch the app
+2. Tap "Start Quiz" to begin
+3. Answer the multiple-choice questions
+4. Review your final score
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
